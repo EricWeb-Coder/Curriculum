@@ -1,0 +1,24 @@
+//clases para textos, llamado de mixins text
+.text-main{
+    @include texts(black,1.2em,400);
+}
+
+.text-dark{
+    @include texts(red,1.9em,600);
+}
+.text-green{
+    border-top: $mainColor solid 5px;
+}
+//clases para bordes, llamado de mixin para border
+.border-radius-one{
+    @include border(dotted,pink,2px,10px);
+    box-shadow: -11px -3px 70px -22px rgba(0,0,0,0.75);
+}
+.border-radius-one{
+    @include border(solid,$mainColor,5px,0);
+}
+.border-top-green{
+    @include border (solid, $mainColor,5px,0);
+}
+
+// https://cssgenerator.org/box-shadow-css-generator.html (cssgenerator)

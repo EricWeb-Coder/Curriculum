@@ -1,0 +1,88 @@
+// vars
+//colors
+$mainColor:rgb(10, 157, 10);
+$secondaryColor:rgb(72, 69, 69);
+$keyColor:rgb(42, 42, 175);
+$white:rgb(242, 239, 239);
+$black:rgb(20, 20, 20);
+
+
+// map (mapas para guardar cosas)
+$gradients:(
+    one:linear-gradient(90deg,#ff0000 0%, #00ff00 80%),
+    two:linear-gradient(183deg,#415298 0%, #3da93d 80%),
+    three:linear-gradient(183deg,#98416e 0%, #a93d88 80%),
+    four:linear-gradient(183deg,#987241 0%, #84a93d 80%)
+);
+
+$bgs:(
+    1:url(../img/cv--blog-1.jpg),
+    2:url(../img/cv--blog-2.jpg),
+    3:url(../img/cv--blog-3.jpg)
+);
+
+// llamado de mapas, se puede llamar de cualquier seccion 
+.box-gradient{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-image: map-get($map: $gradients, $key:two );
+}
+
+.sectionNews{
+    background-image: map-get($map: $bgs, $key:2 );
+}
+
+
+  
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+$mainFont:"Nunito Sans", sans-serif;
+$secondaryFont:verdana;
+$thirdFont:arial;
+
+body{
+    background-image: url(../img/cv--header.jpg);
+    background-repeat: no-repeat;
+}
+
+p,
+span,
+li,
+a{
+    font-family: $secondaryFont;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: $mainFont;
+}
+a{
+    font-family: $thirdFont
+}
+
+//btns
+.btn-main{
+    max-width: 300px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $black;
+    border-radius: 3px;
+    border: solid 1px $secondaryColor;
+    text-decoration: none;
+    &:hover{
+        background-color: $black;
+        color: white;
+    }
+}
+
+.btn-green{
+    @extend .btn-main;
+    background-color: $mainColor;
+
+}
