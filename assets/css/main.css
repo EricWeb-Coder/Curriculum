@@ -133,51 +133,62 @@ a {
   background-color: rgb(242, 239, 239);
 }
 
-.aboutme {
+.sobremi {
   width: 70%;
   margin: 50px auto;
   color: rgb(72, 69, 69);
   border: solid 1px rgb(72, 69, 69);
 }
-.aboutme__title {
+.sobremi__title {
   font-family: "Nunito Sans", sans-serif;
   margin-bottom: 5px;
 }
-.aboutme__title span {
+.sobremi__title span {
   color: rgb(20, 20, 20);
 }
-.aboutme__text--info p {
+.sobremi__text--info p {
   color: rgb(20, 20, 20);
 }
-.aboutme__footer--green {
+.sobremi__footer--green {
   background-color: rgb(10, 157, 10);
   height: 40px;
 }
-.aboutme__footer--green a {
+.sobremi__footer--green a {
   text-decoration: none;
 }
-.aboutme__footer--green a svg {
+.sobremi__footer--green a svg {
   fill: rgb(242, 239, 239);
   width: 20px;
   margin-right: 20px;
 }
 
-.download .p {
-  width: 70%;
-  margin: auto;
+.container {
+  margin-top: 130px;
 }
 
-.skills {
+.habilidades {
   width: 70%;
   margin: auto;
+  padding: 30px;
+}
+.habilidades img {
+  margin-bottom: 20px;
 }
 
-.experience {
+.container {
+  margin-top: 140px;
+}
+
+.experiencia {
   width: 70%;
   margin: auto;
+  margin-top: 130px;
 }
-.experience div {
+.experiencia div {
   border-radius: 2px;
+}
+.experiencia h2 {
+  margin-bottom: 70px;
 }
 
 /*# sourceMappingURL=main.css.map */
