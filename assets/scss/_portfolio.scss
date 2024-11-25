@@ -1,16 +1,11 @@
 .portfolio{
-    width: 70%;
-    margin: auto;
     margin-top: 80px;
     .nav{
         text-align: center;
         justify-content: center;
         li{
             --bs-nav-pills-link-active-bg:transparent;
-            color: $black !important;
-            button{
-                color: $black !important;
-            }
+            --bs-nav-pills-link-active-color:$black;
         }
     }
     &__grid--1{

@@ -1,0 +1,28 @@
+.contacto{
+    fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    form{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    label{
+        width: 30%;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    input{
+        display: block;
+        display: inline;
+        margin-top: 10px;
+        border: 1px solid $mainColor;
+        font-family: $mainFont;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    }
+}

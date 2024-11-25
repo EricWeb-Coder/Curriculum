@@ -9,6 +9,9 @@
 .text-green{
     @include texts ($mainColor,1.1em,600);
 }
+.contenedores-section{
+    @include contenedores (70%,auto)
+}
 //clases para bordes, llamado de mixin para border
 .border-radius-one{
     @include border(dotted,pink,2px,10px);
@@ -16,6 +19,9 @@
 }
 .border-top-green{
     border-top: $mainColor solid 5px;
+}
+.border-bottom-green{
+    border-bottom: $mainColor solid 2px;
 }
 
 // https://cssgenerator.org/box-shadow-css-generator.html (cssgenerator)
