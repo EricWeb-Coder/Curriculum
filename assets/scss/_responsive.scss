@@ -1,0 +1,75 @@
+@media (max-width: 1200px){
+    .contacto{
+        fieldset{
+            display: flex;
+            justify-content: space-between;
+            form{
+                label{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px){
+    .sobremi{
+        &__title{
+            font-size: 1.6em;
+        }
+    }
+    .contacto{
+        fieldset{
+            display: flex;
+            justify-content: space-between;
+            form{
+                label{
+                    width: 100%;
+                }
+                textarea{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .validar{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+@media (max-width: 768px){
+    .sobremi{
+        &__title{
+            font-size: 1.6em;
+        }
+    }
+    .contenedores-section{
+        width: 90%;
+    }
+    .intereses{
+        div{
+            img{
+                width: 30px;
+            }
+        }
+    }
+    .contacto{
+        fieldset{
+            display: flex;
+            justify-content: space-between;
+            form{
+                label{
+                    width: 100%;
+                }
+                textarea{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .validar{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}

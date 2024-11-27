@@ -168,6 +168,9 @@ a {
   width: 20px;
   margin-right: 20px;
 }
+.sobremi__footer--green a svg:hover {
+  fill: rgb(20, 20, 20);
+}
 
 .habilidades {
   padding: 30px;
@@ -221,6 +224,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: solid 2px rgb(20, 20, 20);
 }
 
 .intereses {
@@ -259,6 +263,62 @@ a {
 }
 .contacto fieldset input:hover {
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .contacto fieldset {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacto fieldset form label {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .sobremi__title {
+    font-size: 1.6em;
+  }
+  .contacto fieldset {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacto fieldset form label {
+    width: 100%;
+  }
+  .contacto fieldset form textarea {
+    width: 100%;
+  }
+  .validar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .sobremi__title {
+    font-size: 1.6em;
+  }
+  .contenedores-section {
+    width: 90%;
+  }
+  .intereses div img {
+    width: 30px;
+  }
+  .contacto fieldset {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacto fieldset form label {
+    width: 100%;
+  }
+  .contacto fieldset form textarea {
+    width: 100%;
+  }
+  .validar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

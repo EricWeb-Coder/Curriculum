@@ -23,6 +23,9 @@
                 fill: $white;
                 width: 20px;
                 margin-right: 20px;
+                &:hover{
+                    fill: $black;
+                }
             }
         }
     }
