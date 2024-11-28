@@ -300,6 +300,7 @@ a {
   }
   .contenedores-section {
     width: 90%;
+    overflow: hidden;
   }
   .intereses div img {
     width: 30px;
