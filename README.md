@@ -17,6 +17,9 @@ Aplico Html5 Y SASS, usando librerias como Bootstrap y Aos.
 Tambien aplico Responsive para mobile y que se adapte a distintos formatos.
 Uso mis propios logos y favicon, y lo adapto a mi Proyecto, que es una forma de presentacion mostrando lo aprendido y contar sobre mi.
 
+## Prototipo Figma
+https://www.figma.com/design/X9SMLCC2BY7VWuJGJK8SNn/Proyecto---Curriculum?node-id=0-1&node-type=canvas&t=aRRyevRjvY5en4xX-0
+
 ## Librerias
 
 - https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css -Version 5.3.3
